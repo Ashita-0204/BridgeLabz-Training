@@ -1,7 +1,7 @@
 using System;
-class MilesConv
+public class MilesConv
 {
-    static void Main(String[] args)
+    public static void Main(String[] args)
     {
         Console.WriteLine("Enter distance in kilometers:");
         double km = double.Parse(Console.WriteLine());
