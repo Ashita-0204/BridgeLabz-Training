@@ -39,7 +39,7 @@ A structured log of my daily learning progress during BridgeLabz training, cover
 
 - ➕ Implemented arithmetic, logical, relational, and assignment operators.
 - 🧮 Explored built-in C# data types.
-- 🔄 Practiced implicit and explicit type conversions.
+- 🔄 Practiced implicit and explicit type conversions with Access Modifiers.
 - 🛠️ Strengthened fundamentals through small hands-on programs.
 
 ---
