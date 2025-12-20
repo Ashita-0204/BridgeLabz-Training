@@ -1,7 +1,7 @@
 using System;
-class Distance
+public class Distance
 {
-    static void Main(string[] args)
+    public static void Main(String[] args)
     {
         double kilometers = 10.8;
         //formula to convert kilometers to miles
