@@ -1,7 +1,7 @@
 using System;
-class PenDistribution
+public class PenDistribution
 {
-    static void Main(string[] args)
+    public static void Main(String[] args)
     {
         int totalpens = 14;
         int students = 3;
