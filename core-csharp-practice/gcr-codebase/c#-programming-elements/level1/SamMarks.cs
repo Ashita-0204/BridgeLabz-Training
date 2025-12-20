@@ -1,8 +1,8 @@
 //2. Sam’s mark in Maths is 94, Physics is 95, and Chemistry is 96 out of 100. Find the average percent mark in PCM
 using System;
-class SamMarks
+public class SamMarks
 {
-    static void Main(string[] args)
+    public static void Main(String[] args)
     {
         int Maths = 94;
         int Physics = 95;
