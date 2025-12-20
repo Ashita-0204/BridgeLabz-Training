@@ -1,7 +1,7 @@
 using System;
-class ProfitLoss
+public class ProfitLoss
 {
-    static void Main(String[] args)
+    public static void Main(String[] args)
     {
         double costprice = 129;
         double sellingprice = 191;
