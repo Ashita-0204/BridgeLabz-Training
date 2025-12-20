@@ -1,7 +1,7 @@
 using System;
-class VolumeEarth
+public class VolumeEarth
 {
-    static void Main(string[] args)
+    public static void Main(String[] args)
     {
         double radius = 6378;
         double pi = 3.14;
