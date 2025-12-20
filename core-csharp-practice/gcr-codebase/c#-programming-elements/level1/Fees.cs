@@ -1,7 +1,7 @@
 using System;
-class Fees
+public class Fees
 {
-    static void Main(string[] args)
+    public static void Main(String[] args)
     {
         double fee = 125000;
         double discountPercent = 10;
