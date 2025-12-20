@@ -1,7 +1,7 @@
 using System;
-class Harry
+public class Harry
 {
-    static void Main(string[] args)
+    public static void Main(String[] args)
     {
         int birthyear = 2000;
         int currentyear = 2024;
