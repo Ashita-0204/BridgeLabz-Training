@@ -1,6 +1,7 @@
 using System;
 class HarshadSum
 {
+    //required classes
     public static int SumOfDigits(int[] arr)
     {
         int sum = 0;
@@ -38,5 +39,37 @@ class HarshadSum
         }
 
         return freq;
+    }
+    public static void Main()
+    {
+        int number = int.Parse(Console.ReadLine());
+
+        int[] digits = StoreDigits(number);
+
+        // Sum of digits
+        int sum = SumOfDigits(digits);
+        Console.WriteLine("Sum of Digits: " + sum);
+
+        // Sum of squares of digits
+        double sumSquares = SumOfSquares(digits);
+        Console.WriteLine("Sum of Squares of Digits: " + sumSquares);
+
+        // Harshad Number check
+        if (IsHarshad(number, digits))
+            Console.WriteLine("The number is a Harshad Number");
+        else
+            Console.WriteLine("The number is NOT a Harshad Number");
+
+        // Digit Frequency
+        int[,] frequency = DigitCount(digits);
+
+        Console.WriteLine("Digit Frequency");
+        for (int i = 0; i < 10; i++)
+        {
+            if (frequency[i, 1] > 0)
+            {
+                Console.WriteLine(frequency[i, 0] + " " + frequency[i, 1]);
+            }
+        }
     }
 }

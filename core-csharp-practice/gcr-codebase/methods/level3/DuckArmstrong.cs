@@ -83,32 +83,34 @@ class DuckArmstrong
     }
     public static void Main()
     {
-        int num = int.Parse(Console.ReadLine());
+        int num = int.Parse(Console.ReadLine()); //input
 
-        int digitCount = NumberChecker1.CountDigits(number);
+        //Counting Digits
+        int digitCount = CountDigits(num);
         Console.WriteLine("Digit Count: " + digitCount);
 
-        int[] digits = StoreDigits(number);
+        //Storing Digits
+        int[] digits = Store(number);
 
         // Duck Number
-        if (NumberChecker1.IsDuckNumber(digits))
+        if (IsDuckNumber(digits))
             Console.WriteLine("It is a Duck Number");
         else
             Console.WriteLine("It is NOT a Duck Number");
 
         // Armstrong Number
-        if (NumberChecker1.IsArmstrong(number, digits))
+        if (IsArmstrong(number, digits))
             Console.WriteLine("It is an Armstrong Number");
         else
             Console.WriteLine("It is NOT an Armstrong Number");
 
         // Largest & Second Largest
-        int[] largest = NumberChecker1.FindLargestAndSecondLargest(digits);
+        int[] largest = FindLargestAndSecondLargest(digits);
         Console.WriteLine("Largest Digit: " + largest[0]);
         Console.WriteLine("Second Largest Digit: " + largest[1]);
 
         // Smallest & Second Smallest
-        int[] smallest = NumberChecker1.FindSmallestAndSecondSmallest(digits);
+        int[] smallest = FindSmallestAndSecondSmallest(digits);
         Console.WriteLine("Smallest Digit: " + smallest[0]);
         Console.WriteLine("Second Smallest Digit: " + smallest[1]);
     }
