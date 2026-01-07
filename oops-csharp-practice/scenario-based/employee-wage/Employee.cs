@@ -12,7 +12,9 @@ namespace Training.employee_wages
         private int empId;
         private string empName;
         private int dailyWages;
-
+        public const int WAGE_PER_HOUR = 20;
+        public const int FULL_DAY_HOUR = 8;
+        public const int PART_TIME_HOUR = 4;
         //getters and setters
         public int EmpId { get => empId; set => empId = value; }
         public string EmpName { get => empName; set => empName = value; }
