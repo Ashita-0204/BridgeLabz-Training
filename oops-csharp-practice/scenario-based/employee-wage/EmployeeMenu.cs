@@ -30,6 +30,10 @@ namespace Training.employee_wages
                 case 2: //UC-1 Functionality
                     employeeUtility.CheckAttendance();
                     break;
+                case 3: //UC - 2,3,4 Functionality
+                    int wage = employeeUtility.CalculateDailyWage();
+                    Console.WriteLine("Daily Wage: " + wage);
+                    break;
                 default:
                     Console.WriteLine("Invalid option");
                     break;
