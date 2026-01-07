@@ -57,5 +57,26 @@ namespace Training.employee_wages
 
             return hours * Employee.WAGE_PER_HOUR;
         }
+        //UC 5 Functionality Implementation
+        public void CalculateMonthlyWage(Employee employee)
+        {
+            employee.TotalHours = 0;
+            employee.TotalDays = 0;
+            employee.TotalWages = 0;
+
+            while (employee.TotalHours < Employee.MAX_WORKING_HOURS &&
+                   employee.TotalDays < Employee.MAX_WORKING_DAYS)
+            {
+                employee.TotalDays++;
+
+                int dailyWage = CalculateDailyWage();
+                employee.TotalWages += dailyWage;
+                employee.TotalHours += dailyWage / Employee.WAGE_PER_HOUR;
+            }
+
+            Console.WriteLine("Total Days Worked: " + employee.TotalDays);
+            Console.WriteLine("Total Hours Worked: " + employee.TotalHours);
+            Console.WriteLine("Total Monthly Wage: " + employee.TotalWages);
+        }
     }
 }
