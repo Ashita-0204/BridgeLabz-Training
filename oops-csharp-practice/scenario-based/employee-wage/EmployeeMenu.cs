@@ -34,6 +34,10 @@ namespace Training.employee_wages
                     int wage = employeeUtility.CalculateDailyWage();
                     Console.WriteLine("Daily Wage: " + wage);
                     break;
+                case 4: //UC-5 Implementation
+                    employeeUtility.CalculateMonthlyWage(employee);
+                    Console.WriteLine(employee);
+                    break;
                 default:
                     Console.WriteLine("Invalid option");
                     break;
