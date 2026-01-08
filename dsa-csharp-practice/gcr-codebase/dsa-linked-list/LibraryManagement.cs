@@ -13,6 +13,8 @@ class Node
         author = Author;
         genre = Genre;
         availability = avail;
+        next = null;
+        prev = null;
     }
 }
 class Library

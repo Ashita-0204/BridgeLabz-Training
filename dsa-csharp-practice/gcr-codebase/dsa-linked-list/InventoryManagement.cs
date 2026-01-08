@@ -13,6 +13,7 @@ class Node
         qty = quantity;
         price = pricee;
         name = namee;
+        next = null;
     }
 }
 

@@ -13,6 +13,7 @@ class Node
         name = namee;
         priority = prior;
         due = duee;
+        next = null;
     }
 }
 //Task Scheduler

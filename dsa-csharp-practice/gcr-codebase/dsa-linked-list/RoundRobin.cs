@@ -8,6 +8,7 @@ class Node
         id = iD;
         burst = Burst;
         remaining = remain;
+        next = null;
     }
 }
 

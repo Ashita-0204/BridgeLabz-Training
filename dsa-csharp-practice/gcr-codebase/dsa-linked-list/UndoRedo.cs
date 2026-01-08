@@ -6,6 +6,8 @@ class Node
     public Node(string Content)
     {
         content = Content;
+        next = null;
+        prev = null;
     }
 }
 //methods
@@ -29,7 +31,7 @@ class Editor
     //undo
     public void Undo()
     {
-        if (temp.prev != null)
+        if (temp.prev != null && temp != null)
         {
             temp = temp.prev;
         }
@@ -38,14 +40,17 @@ class Editor
     //redo
     public void Redo()
     {
-        if (temp.next != null)
+        if (temp.next != null && temp != null)
         {
             temp = temp.next;
         }
     }
     public void Display()
     {
-        Console.WriteLine("Current Text: " + temp.content);
+        if (temp != null)
+        {
+            Console.WriteLine("Current Text: " + temp.content);
+        }
     }
 }
 class UndoRedo

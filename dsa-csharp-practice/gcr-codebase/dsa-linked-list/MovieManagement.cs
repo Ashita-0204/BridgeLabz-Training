@@ -9,10 +9,12 @@ class Node
 
     public Node(String titl, string direc, int yr, double rate)
     {
-        titl = title;
-        direc = director;
-        yr = year;
-        rate = rating;
+        title = titl;
+        director = direc;
+        year = yr;
+        rating = rate;
+        next = null;
+        prev = null;
     }
 }
 //Method based class
@@ -26,7 +28,7 @@ class MovList
         Node node = new Node(titl, direc, yr, rate);
         if (head == null)
         {
-            head = tail = Node;
+            head = tail = node;
         }
         else
         {
