@@ -1,9 +1,9 @@
 # 🚀 BridgeLabz Training Journey
 
-A structured log of my daily learning progress during **BridgeLabz training**, covering  
-**Git, .NET, C#, and core programming concepts**.
+A structured log of my **daily learning progress during BridgeLabz training**, covering  
+**Git, .NET, C#, OOPS, and Data Structures**.
 
-This repository serves as a central record of daily learning, hands-on practice, and conceptual growth throughout the training program.
+This repository serves as a **central record of daily learning, hands-on practice, and scenario-based problem solving**, reflecting consistent growth throughout the training program.
 
 ---
 
@@ -13,10 +13,9 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- 📂 Created and organized repository folder structures.
-- 🔁 Initialized a GitHub repository for version control.
-- 🧠 Practiced essential Git commands: `init`, `add`, `commit`, `push`.
-- 💻 Maintained separate codebases for Java and C# projects.
+- 📂 Set up GitHub repository for project tracking.
+- 🗂️ Organized folder structures for Java and C# codebases.
+- 🔁 Practiced essential Git commands: `init`, `add`, `commit`, `push`.
 
 ---
 
@@ -26,11 +25,11 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- 🌐 Understood the .NET ecosystem and runtime environment.
+- 🌐 Basics of the .NET ecosystem and C# language.
 - 🔄 Compared Java and C# syntax and execution flow.
-- 🧩 Learned about `using` statements and the `Main` method structure.
+- 🧩 Understood `using` statements and `Main()` method.
 - ▶️ Built and executed C# programs using the `dotnet` CLI.
-- 🔁 Converted Java programs into equivalent C# implementations.
+- 🔁 Converted Java programs into C# equivalents.
 
 ---
 
@@ -40,11 +39,11 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- ➕ Implemented arithmetic, relational, logical, and assignment operators.
-- 🔢 Explored commonly used C# data types.
-- 🔄 Practiced implicit and explicit type conversions.
-- 🛠️ Strengthened fundamentals through hands-on programs.
-- 🔐 Learned the role of access modifiers in data protection.
+- ➕ Arithmetic, relational, and logical operators.
+- 🔢 Common data types: `int`, `double`, `bool`, `char`, `string`.
+- 🔄 Implicit and explicit type conversions.
+- 🛠️ Hands-on practice with variables and operators.
+- 🔐 Introduction to access modifiers.
 
 ---
 
@@ -54,11 +53,11 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- 🧠 Understood C# program execution flow and memory allocation.
-- 📦 Learned about Stack memory, Heap memory, and Static memory.
-- ⚙️ Differentiated between static and non-static members.
-- 🏗️ Learned about constructors and object initialization.
-- 🔐 Studied access modifiers:  
+- 🧠 C# program execution and memory allocation.
+- 📦 Stack memory, Heap memory, and Static memory.
+- ⚙️ Static vs non-static members.
+- 🏗️ Constructors and object initialization.
+- 🔐 Access modifiers:  
   `public`, `private`, `protected`, `internal`, `protected internal`, `private protected`
 
 ---
@@ -69,13 +68,13 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- 🚦 Understood the importance of control flow in programs.
-- ✔️ Worked with boolean values and expressions.
-- 🔗 Used logical operators (`&&`, `||`, `!`) in conditions.
-- 🧩 Implemented decision-making statements: `if`, `else if`, `else`.
-- 🔄 Practiced looping constructs: `for`, `while`.
-- ⛔ Used `break` and `continue` to control loops.
-- 🔀 Learned multi-way decision making using `switch`.
+- 🚦 Importance of control flow in programs.
+- ✔️ Boolean values and expressions.
+- 🔗 Logical operators (`&&`, `||`, `!`).
+- 🧩 Conditional statements: `if`, `else if`, `else`.
+- 🔄 Looping constructs: `for`, `while`.
+- ⛔ Used `break` and `continue`.
+- 🔀 Multi-way decision making using `switch`.
 
 ---
 
@@ -85,13 +84,13 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- 📦 Learned the concept and importance of arrays.
-- 🔢 Created and accessed single-dimensional arrays.
-- 🔁 Used loops to traverse array elements.
+- 📦 Basics and importance of arrays.
+- 🔢 Single-dimensional arrays creation and traversal.
+- 🔁 Used loops to iterate array elements.
 - ✏️ Modified array values dynamically.
-- 📏 Used the `Length` property to avoid hard-coded values.
-- 🔢🔢 Learned multi-dimensional (2D) arrays.
-- 🔄 Used nested loops for matrix traversal.
+- 📏 Used `Length` property to avoid hard-coded values.
+- 🔢🔢 Multi-dimensional (2D) arrays.
+- 🔄 Nested loops for matrix traversal.
 - ✅ Followed clean coding practices and input validation.
 
 ---
@@ -102,11 +101,11 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- ✅ Understood the concept and purpose of methods.
-- 🧱 Learned method syntax and structure.
-- 📦 Created user-defined methods.
-- ✏️ Called methods from the `Main()` method.
-- 🧩 Solved logical problems by dividing code into reusable methods.
+- ✅ Concept and purpose of methods.
+- 🧱 Method syntax and structure.
+- 📦 User-defined methods.
+- ✏️ Calling methods from `Main()`.
+- 🧩 Solved problems using modular code design.
 
 ---
 
@@ -116,20 +115,178 @@ This repository serves as a central record of daily learning, hands-on practice,
 
 ### What I Learned 📚
 
-- 🧩 Introduction to strings in C#.
-- 🔄 Declared and initialized strings.
-- 📥 Took string input from the user.
-- ✔️ Accessed characters using indexing.
-- 🔗 Used string properties and methods such as  
+- 🧩 String declaration and initialization.
+- 📥 Taking string input from the user.
+- ✔️ Accessing characters using indexing.
+- 🔗 String properties and methods:
   `Length`, `ToUpper()`, `ToLower()`, `Equals()`.
-- 🔐 Performed string operations:
+- 🔐 String operations:
   - Comparing strings
   - Reversing strings
   - Palindrome checking
   - Counting vowels and consonants
-- 📏 Implemented logic-based solutions without relying on shortcuts.
-- ✅ Improved string manipulation and logical thinking skills.
+- 📏 Implemented logic without built-in shortcuts.
+- ✅ Improved string manipulation skills.
 
 ---
 
-✨ _This README will be updated regularly as the BridgeLabz training continues, documenting consistent progress and practical learning in C# and .NET._
+## 🧠 Day 9 — OOPS Fundamentals & Scenario-Based Problems
+
+**Date:** 29/12/2025
+
+### What I Learned 📚
+
+- 🔢 Introduction to Object-Oriented Programming.
+- 🗂️ Core OOPS concepts: Class, Object, Encapsulation, Abstraction.
+- 🧠 Representing real-world entities using classes and objects.
+- ✅ Scenario-based problems:
+  - Temperature Analyzer
+  - Snake and Ladder Game
+  - Sentence Formatter
+  - Student Score Card
+
+---
+
+## 🏗️ Day 10 — Constructors & Instance Members
+
+**Date:** 30/12/2025
+
+### What I Learned 📚
+
+- 🌐 Constructors in C#.
+- 🔗 Default and parameterized constructors.
+- 💻 Instance variables and methods.
+- ✅ Object initialization using constructors.
+- 🧠 Scenario-based problems:
+  - Library Management System
+  - Student Quiz Grader
+
+---
+
+## 🔑 Day 11 — C# Keywords & Practical Scenarios
+
+**Date:** 31/12/2025
+
+### What I Learned 📚
+
+- 🧠 `this` keyword for resolving naming conflicts.
+- 🧩 `static` variables and methods.
+- 📦 `sealed` keyword to restrict inheritance.
+- 🌐 `is` operator for type checking.
+- 💻 Practical scenarios:
+  - Bank Account System
+  - Employee / Student Type Verification
+  - Secure Utility Class
+
+---
+
+## 🧩 Day 12 — Object Modeling & UML Basics
+
+**Date:** 01/01/2026
+
+### What I Learned 📚
+
+- 🏗️ Object modeling concepts.
+- 📏 Identifying classes, attributes, and methods.
+- 🌳 Class relationships.
+- 🔢 Introduction to UML class diagrams.
+- 🔗 Design-based assignments:
+  - Library System Object Model
+  - Student Management System
+
+---
+
+## 🌳 Day 13 — Inheritance in C#
+
+**Date:** 02/01/2026
+
+### What I Learned 📚
+
+- 🧩 Inheritance and IS-A relationship.
+- 💻 Base and derived classes.
+- 📏 Use of protected members.
+- 🌐 Code reusability through inheritance.
+- 🔢 Practice problems:
+  - Animal Hierarchy
+  - Employee Management System
+  - Student Hierarchy
+
+---
+
+## 💻 Day 14 — OOPS Practice & Revision
+
+**Date:** 03/01/2026
+
+### What I Learned 📚
+
+- 🔗 Revision of core OOPS concepts.
+- 📏 Keywords: `this`, `static`, `sealed`, `is`.
+- 🧩 Strengthened OOPS-based problem solving.
+- 🧠 Implemented real-world problems using proper class design.
+- 💻 Student Quiz Grader with evaluation logic.
+
+---
+
+## 🧠 Day 15 — Advanced OOPS Concepts
+
+**Date:** 05/01/2026
+
+### What I Learned 📚
+
+- 📏 Encapsulation using properties.
+- 🧮 Polymorphism via method overriding.
+- ✅ Interface vs Abstract Class.
+- 📦 Combining multiple OOPS concepts.
+- 📁 Case studies:
+  - Hospital Patient Management System
+  - Vehicle Rental Application
+
+---
+
+## 🐦 Day 16 — Interfaces, Inheritance & Arrays
+
+**Date:** 06/01/2026
+
+### What I Learned 📚
+
+- 🌐 Implementing multiple interfaces.
+- 🧩 Using arrays to store objects.
+- 📏 Runtime type checking using `is`.
+- 🏗️ Polymorphism while iterating collections.
+- 💻 Scenarios:
+  - Bird Sanctuary System (EcoWing Wildlife Conservation Center)
+  - Customer Service Call Log Manager
+
+---
+
+## 🧩 Day 17 — Data Structures Introduction
+
+**Date:** 07/01/2026
+
+### What I Learned 📚
+
+- 📁 Introduction to Data Structures.
+- ✅ Linked List concepts.
+- 🌐 Difference between arrays and linked lists.
+- 📏 Practical use cases.
+- 📦 Problem solved:
+  - Employee Wage Computation
+
+---
+
+## 🏠 Day 18 — Collections & Polymorphic Systems
+
+**Date:** 08/01/2026
+
+### What I Learned 📚
+
+- 💻 Stack and its operations.
+- 🧮 Queue and FIFO behavior.
+- 🌐 HashMap and hashing basics.
+- 🏗️ Choosing appropriate data structures.
+- ✅ Scenario:
+  - Smart Home Automation using polymorphism
+
+---
+
+✨ _This README will be updated regularly as the BridgeLabz training progresses, documenting consistent learning and practical development in C# and .NET._
