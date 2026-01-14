@@ -289,4 +289,47 @@ This repository serves as a **central record of daily learning, hands-on practic
 
 ---
 
+## 📦 Day 21 — Stack & Queue Concepts  
+**Date:** 09/01/2026  
+
+### What I Learned 📚
+- 🧵 Understood the concept of Stack (LIFO – Last In First Out).
+- ⚙️ Understood the concept of Queue (FIFO – First In First Out).
+- 📏 Learned basic stack operations: `Push`, `Pop`, `Peek`.
+- 📦 Learned basic queue operations: `Enqueue`, `Dequeue`.
+- ▶️ Studied real-world use cases of Stack and Queue.
+- 🌳 Practice & Assignments: Implemented basic programs focusing on core logic rather than scenarios.
+
+---
+
+## 🏭 Day 22 — Scenario-Based Programming  
+**Date:** 12/01/2026  
+
+### What I Learned 📚
+- 📏 Implemented scenario-based programs using OOPS concepts.
+- ▶️ Designed classes and methods for real-world applications.
+- ✅ Applied conditional logic for decision making.
+- ⚙️ Improved modular and structured coding approach.
+- 🔑 Practice & Scenario-Based Assignments:
+  - Metal Custom Manufacturing System  
+  - Loan Eligibility Check with Approval/Rejection Report  
+
+---
+
+## 🔍 Day 23 — Searching Algorithms & Applications  
+**Date:** 13/01/2026  
+
+### What I Learned 📚
+- 🌳 Learned Linear Search algorithm.
+- 🌐 Learned Binary Search algorithm.
+- 🧵 Understood basics of time complexity for searching techniques.
+- 📦 Practice & Scenario-Based Assignments:
+  - Linear Search Program  
+  - Binary Search Program  
+  - Bookshelf Management System  
+  - Movie Scheduler System  
+
+---
+
+
 ✨ _This README will be updated regularly as the BridgeLabz training progresses, documenting consistent learning and practical development in C# and .NET._
