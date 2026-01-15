@@ -40,7 +40,18 @@ class User
     }
     public int PhoneNum
     {
-        get => phoneNum; set => phoneNum => value;
+        get => phoneNum; set => phoneNum = value;
+    }
+    // UC-7: Override Equals
+    public override bool Equals(object obj)
+    {
+        if (obj == null || !(obj is User))
+        {
+            return false;
+        }
+
+        User other = (User)obj;
+        return this.FirstName == other.FirstName && this.LastName == other.LastName;
     }
     public override string ToString()
     {
