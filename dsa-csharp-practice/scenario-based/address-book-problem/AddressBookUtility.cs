@@ -5,12 +5,12 @@ class AddressBookUtility : IAddress
 {
     private LinkedList<User> contacts = new LinkedList<User>();
     static User[] addressArray = new User[1001];
-    static AddressBookUtility[] addressBooks = new AddressBookUtility[10];
-    static string[] addressBookNames = new string[10];
+    static AddressBookUtility[] addressBooks = new AddressBookUtility[1001];
+    static string[] addressBookNames = new string[1001];
     static int bookCount = 0;
     static AddressBookUtility currentBook;
     static int count = 0;
-    private int contactCount = 0;
+    // private int contactCount = 0;
 
     //UC-2 Implementation for adding a new contact 
     public void AddContact()
@@ -99,14 +99,14 @@ class AddressBookUtility : IAddress
         Console.Write("Enter the First and Last name ");
         string firstName = Console.ReadLine();
         string lastName = Console.ReadLine();
-        LinkedList<User> curr = contacts.First;
+        LinkedListNode<User> curr = contacts.First;
         bool flag = false;
         while (curr != null)
         {
             if (curr.Value.FirstName == firstName && curr.Value.LastName == lastName)
             {
                 contacts.Remove(curr);
-                Console.ReadLine("The User is deleted.");
+                Console.WriteLine("The User is deleted.");
                 flag = true;
                 break;
             }
@@ -162,7 +162,7 @@ class AddressBookUtility : IAddress
         string name = Console.ReadLine();
         for (int i = 0; i < bookCount; i++)
         {
-            if (addressBook[i] == name)
+            if (addressBookNames[i] == name)
             {
                 Console.WriteLine("Address Book already exists!");
                 return;
