@@ -6,7 +6,7 @@ public interface IAddress
     void DeleteContact();
     void MultipleUsers();
     void AddressBook();
-    bool isDuplicate();
+    bool isDuplicate(User user);
     void SearchAcrossAddressBooks();
     void ViewByCityOrState();
     void SearchByCityOrState();
