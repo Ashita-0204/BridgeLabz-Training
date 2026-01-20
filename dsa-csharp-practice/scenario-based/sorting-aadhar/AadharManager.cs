@@ -16,7 +16,7 @@ namespace AadharRadixSort
             searcher = new BinarySearcher();
 
             aadharNumbers = new long[]{
-                789654133.12365478965,745982175681,785182172
+                789654133,12365478965,745982175681,785182172
             };
         }
 
