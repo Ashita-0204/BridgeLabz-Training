@@ -1,335 +1,436 @@
-# 🚀 BridgeLabz Training Journey
+# BridgeLabz-Training 🚀
 
-A structured log of my **daily learning progress during BridgeLabz training**, covering  
-**Git, .NET, C#, OOPS, and Data Structures**.
+Welcome to my BridgeLabz-Training repository!  
+This README serves as a structured log of my daily progress across various .NET, C#, OOPS, DSA, and database modules throughout the training program.
 
-This repository serves as a **central record of daily learning, hands-on practice, and scenario-based problem solving**, reflecting consistent growth throughout the training program.
+Each entry reflects concepts learned, skills practiced, and real-world scenario implementations.
 
 ---
 
-## 📘 Day 1 — GitHub Setup & Java Basics
+## Day 1 — December 17, 2025 — GitHub Setup & Java Basics 📅
 
-**Date:** 17/12/2025
+**Topic:** Repository Setup & Folder Organization 📁
 
 ### What I Learned 📚
 
-- 📂 Set up GitHub repository for project tracking.
-- 🗂️ Organized folder structures for Java and C# codebases.
-- 🔁 Practiced essential Git commands: `init`, `add`, `commit`, `push`.
+- Set up GitHub repository for project tracking 🔄
+- Organized folder structures for Java and C# codebases 🗂️
+- Practiced Git commands: `init`, `add`, `commit`, `push` 💻
 
 ---
 
-## ⚙️ Day 2 — Introduction to .NET & C#
+## Day 2 — December 18, 2025 — Introduction to .NET & C# 📅
 
-**Date:** 18/12/2025
+**Topic:** .NET Framework & C# Basics 🔧
 
 ### What I Learned 📚
 
-- 🌐 Basics of the .NET ecosystem and C# language.
-- 🔄 Compared Java and C# syntax and execution flow.
-- 🧩 Understood `using` statements and `Main()` method.
-- ▶️ Built and executed C# programs using the `dotnet` CLI.
-- 🔁 Converted Java programs into C# equivalents.
+- Basics of .NET ecosystem and C# language 🌐
+- Differences between Java and C# 🔄
+- Converted Java programs to C# ▶️
+- Built and ran programs using `dotnet` CLI 💻
 
 ---
 
-## 💻 Day 3 — C# Fundamentals: Data Types & Operators
+## Day 3 — December 19, 2025 — C# Fundamentals 📅
 
-**Date:** 19/12/2025
+**Topic:** Operators, Data Types & Type Conversion 🔧
 
 ### What I Learned 📚
 
-- ➕ Arithmetic, relational, and logical operators.
-- 🔢 Common data types: `int`, `double`, `bool`, `char`, `string`.
-- 🔄 Implicit and explicit type conversions.
-- 🛠️ Hands-on practice with variables and operators.
-- 🔐 Introduction to access modifiers.
+- Arithmetic, relational, logical operators ➕➖
+- Data types: `int`, `double`, `bool`, `char`, `string` 🔢
+- Implicit and explicit conversions 🔄
+- Hands-on variable and operator practice ✅
 
 ---
 
-## 🧠 Day 4 — Memory Concepts & Access Modifiers
+## Day 4 — December 20, 2025 — Memory Concepts 📅
 
-**Date:** 19/12/2025
+**Topic:** Execution Flow & Memory 🔍
 
 ### What I Learned 📚
 
-- 🧠 C# program execution and memory allocation.
-- 📦 Stack memory, Heap memory, and Static memory.
-- ⚙️ Static vs non-static members.
-- 🏗️ Constructors and object initialization.
-- 🔐 Access modifiers:  
-  `public`, `private`, `protected`, `internal`, `protected internal`, `private protected`
+- Stack, Heap & Static memory 🧠
+- Static vs non-static members ⚙️
+- Constructors & object initialization 🏗️
+- Access modifiers 🔐
 
 ---
 
-## 🔁 Day 5 — Control Flow Statements
+## Day 5 — December 22, 2025 — Control Flow 📅
 
-**Date:** 22/12/2025
+**Topic:** Decision Making & Loops 🔁
 
 ### What I Learned 📚
 
-- 🚦 Importance of control flow in programs.
-- ✔️ Boolean values and expressions.
-- 🔗 Logical operators (`&&`, `||`, `!`).
-- 🧩 Conditional statements: `if`, `else if`, `else`.
-- 🔄 Looping constructs: `for`, `while`.
-- ⛔ Used `break` and `continue`.
-- 🔀 Multi-way decision making using `switch`.
+- Boolean expressions ✔️
+- `if`, `else if`, `switch` 🧩
+- `for`, `while` loops 🔄
+- `break` & `continue` ⛔
 
 ---
 
-## 🧮 Day 6 — Arrays in C#
+## Day 6 — December 23, 2025 — Arrays 📅
 
-**Date:** 23/12/2025
+**Topic:** Single & Multi-Dimensional Arrays 🧮
 
 ### What I Learned 📚
 
-- 📦 Basics and importance of arrays.
-- 🔢 Single-dimensional arrays creation and traversal.
-- 🔁 Used loops to iterate array elements.
-- ✏️ Modified array values dynamically.
-- 📏 Used `Length` property to avoid hard-coded values.
-- 🔢🔢 Multi-dimensional (2D) arrays.
-- 🔄 Nested loops for matrix traversal.
-- ✅ Followed clean coding practices and input validation.
+- Array creation & traversal 📦
+- 2D arrays 🔢
+- Nested loops 🔄
+- Clean coding practices ✅
 
 ---
 
-## 🔧 Day 7 — Methods in C#
+## Day 7 — December 24, 2025 — Methods 📅
 
-**Date:** 24/12/2025
+**Topic:** Function Implementation 🔧
 
 ### What I Learned 📚
 
-- ✅ Concept and purpose of methods.
-- 🧱 Method syntax and structure.
-- 📦 User-defined methods.
-- ✏️ Calling methods from `Main()`.
-- 🧩 Solved problems using modular code design.
+- Method syntax & structure 🧱
+- User-defined methods 📦
+- Modular coding approach 🧩
 
 ---
 
-## 🧵 Day 8 — Strings in C#
+## Day 8 — December 26, 2025 — Strings 📅
 
-**Date:** 26/12/2025
+**Topic:** String Operations 🧵
 
 ### What I Learned 📚
 
-- 🧩 String declaration and initialization.
-- 📥 Taking string input from the user.
-- ✔️ Accessing characters using indexing.
-- 🔗 String properties and methods:
-  `Length`, `ToUpper()`, `ToLower()`, `Equals()`.
-- 🔐 String operations:
-  - Comparing strings
-  - Reversing strings
-  - Palindrome checking
-  - Counting vowels and consonants
-- 📏 Implemented logic without built-in shortcuts.
-- ✅ Improved string manipulation skills.
+- String properties & methods 🔗
+- Palindrome & reversal logic 🔐
+- Logical string manipulation 📏
 
 ---
 
-## 🧠 Day 9 — OOPS Fundamentals & Scenario-Based Problems
+## Day 9 — December 29, 2025 — OOPS Fundamentals 📅
 
-**Date:** 29/12/2025
+**Topic:** Core OOPS Concepts 💡
 
 ### What I Learned 📚
 
-- 🔢 Introduction to Object-Oriented Programming.
-- 🗂️ Core OOPS concepts: Class, Object, Encapsulation, Abstraction.
-- 🧠 Representing real-world entities using classes and objects.
-- ✅ Scenario-based problems:
-  - Temperature Analyzer
-  - Snake and Ladder Game
-  - Sentence Formatter
-  - Student Score Card
+- Class & Object 🗂️
+- Encapsulation & Abstraction 🧠
+- Scenario-based assignments ✅
 
 ---
 
-## 🏗️ Day 10 — Constructors & Instance Members
+## Day 10 — December 30, 2025 — Constructors 📅
 
-**Date:** 30/12/2025
+**Topic:** Object Creation & Class Design 🏗️
 
 ### What I Learned 📚
 
-- 🌐 Constructors in C#.
-- 🔗 Default and parameterized constructors.
-- 💻 Instance variables and methods.
-- ✅ Object initialization using constructors.
-- 🧠 Scenario-based problems:
-  - Library Management System
-  - Student Quiz Grader
+- Default & parameterized constructors 🔗
+- Instance members 💻
+- Library & Quiz Grader systems 🧠
 
 ---
 
-## 🔑 Day 11 — C# Keywords & Practical Scenarios
+## Day 11 — December 31, 2025 — Keywords 📅
 
-**Date:** 31/12/2025
+**Topic:** `this`, `static`, `sealed`, `is` 🔑
 
 ### What I Learned 📚
 
-- 🧠 `this` keyword for resolving naming conflicts.
-- 🧩 `static` variables and methods.
-- 📦 `sealed` keyword to restrict inheritance.
-- 🌐 `is` operator for type checking.
-- 💻 Practical scenarios:
-  - Bank Account System
-  - Employee / Student Type Verification
-  - Secure Utility Class
+- Naming conflict resolution 🧠
+- Static behavior 🧩
+- Type checking 🌐
 
 ---
 
-## 🧩 Day 12 — Object Modeling & UML Basics
+## Day 12 — January 1, 2026 — Object Modeling 📅
 
-**Date:** 01/01/2026
+**Topic:** UML & System Design 🧩
 
 ### What I Learned 📚
 
-- 🏗️ Object modeling concepts.
-- 📏 Identifying classes, attributes, and methods.
-- 🌳 Class relationships.
-- 🔢 Introduction to UML class diagrams.
-- 🔗 Design-based assignments:
-  - Library System Object Model
-  - Student Management System
+- Class relationships 🌳
+- UML diagrams 🔢
+- System modeling 🔗
 
 ---
 
-## 🌳 Day 13 — Inheritance in C#
+## Day 13 — January 2, 2026 — Inheritance 📅
 
-**Date:** 02/01/2026
+**Topic:** Code Reusability 🌳
 
 ### What I Learned 📚
 
-- 🧩 Inheritance and IS-A relationship.
-- 💻 Base and derived classes.
-- 📏 Use of protected members.
-- 🌐 Code reusability through inheritance.
-- 🔢 Practice problems:
-  - Animal Hierarchy
-  - Employee Management System
-  - Student Hierarchy
+- IS-A relationship 🧩
+- Base & derived classes 💻
+- Reusability through inheritance 🌐
 
 ---
 
-## 💻 Day 14 — OOPS Practice & Revision
-
-**Date:** 03/01/2026
+## Day 14 — January 3, 2026 — OOPS Practice 📅
 
 ### What I Learned 📚
 
-- 🔗 Revision of core OOPS concepts.
-- 📏 Keywords: `this`, `static`, `sealed`, `is`.
-- 🧩 Strengthened OOPS-based problem solving.
-- 🧠 Implemented real-world problems using proper class design.
-- 💻 Student Quiz Grader with evaluation logic.
+- Revised core OOPS 🔗
+- Applied object-oriented problem solving 🧩
+- Student Quiz Grader enhancement 🧠
 
 ---
 
-## 🧠 Day 15 — Advanced OOPS Concepts
+## Day 15 — January 5, 2026 — Advanced OOPS 📅
 
-**Date:** 05/01/2026
+**Topic:** Polymorphism, Interface, Abstract Class 🧠
 
 ### What I Learned 📚
 
-- 📏 Encapsulation using properties.
-- 🧮 Polymorphism via method overriding.
-- ✅ Interface vs Abstract Class.
-- 📦 Combining multiple OOPS concepts.
-- 📁 Case studies:
-  - Hospital Patient Management System
-  - Vehicle Rental Application
+- Runtime polymorphism 🧮
+- Interface vs Abstract class ✅
+- Case studies implementation 📦
 
 ---
 
-## 🐦 Day 16 — Interfaces, Inheritance & Arrays
-
-**Date:** 06/01/2026
+## Day 16 — January 6, 2026 — Interfaces & Arrays 📅
 
 ### What I Learned 📚
 
-- 🌐 Implementing multiple interfaces.
-- 🧩 Using arrays to store objects.
-- 📏 Runtime type checking using `is`.
-- 🏗️ Polymorphism while iterating collections.
-- 💻 Scenarios:
-  - Bird Sanctuary System (EcoWing Wildlife Conservation Center)
-  - Customer Service Call Log Manager
+- Multiple interfaces 🌐
+- Polymorphism in collections 🏗️
+- Bird Sanctuary & Call Log system 💻
 
 ---
 
-## 🧩 Day 17 — Data Structures Introduction
+## Day 17 — January 7, 2026 — Data Structures 📅
 
-**Date:** 07/01/2026
+**Topic:** Linked List 🧩
 
 ### What I Learned 📚
 
-- 📁 Introduction to Data Structures.
-- ✅ Linked List concepts.
-- 🌐 Difference between arrays and linked lists.
-- 📏 Practical use cases.
-- 📦 Problem solved:
-  - Employee Wage Computation
+- Linked list structure ✅
+- Arrays vs Linked Lists 🌐
+- Wage computation scenario 📦
 
 ---
 
-## 🏠 Day 18 — Collections & Polymorphic Systems
+## Day 18 — January 8, 2026 — Collections 📅
 
-**Date:** 08/01/2026
+**Topic:** Stack, Queue & HashMap 🏠
 
 ### What I Learned 📚
 
-- 💻 Stack and its operations.
-- 🧮 Queue and FIFO behavior.
-- 🌐 HashMap and hashing basics.
-- 🏗️ Choosing appropriate data structures.
-- ✅ Scenario:
-  - Smart Home Automation using polymorphism
+- Stack & Queue operations 💻
+- Hashing basics 🌐
+- Smart Home Automation system ✅
 
 ---
 
-## 📦 Day 21 — Stack & Queue Concepts  
-**Date:** 09/01/2026  
+## Day 19 — January 9, 2026 — Stack & Queue Concepts 📅
 
 ### What I Learned 📚
-- 🧵 Understood the concept of Stack (LIFO – Last In First Out).
-- ⚙️ Understood the concept of Queue (FIFO – First In First Out).
-- 📏 Learned basic stack operations: `Push`, `Pop`, `Peek`.
-- 📦 Learned basic queue operations: `Enqueue`, `Dequeue`.
-- ▶️ Studied real-world use cases of Stack and Queue.
-- 🌳 Practice & Assignments: Implemented basic programs focusing on core logic rather than scenarios.
+
+- LIFO & FIFO concepts 🧵
+- Push, Pop, Peek 📏
+- Enqueue, Dequeue 📦
 
 ---
 
-## 🏭 Day 22 — Scenario-Based Programming  
-**Date:** 12/01/2026  
+## Day 20 — January 12, 2026 — Scenario-Based Programming 📅
 
 ### What I Learned 📚
-- 📏 Implemented scenario-based programs using OOPS concepts.
-- ▶️ Designed classes and methods for real-world applications.
-- ✅ Applied conditional logic for decision making.
-- ⚙️ Improved modular and structured coding approach.
-- 🔑 Practice & Scenario-Based Assignments:
-  - Metal Custom Manufacturing System  
-  - Loan Eligibility Check with Approval/Rejection Report  
+
+- Real-world OOP design 🏭
+- Modular coding ⚙️
+- Loan eligibility system 🔑
 
 ---
 
-## 🔍 Day 23 — Searching Algorithms & Applications  
-**Date:** 13/01/2026  
+## Day 21 — January 13, 2026 — Searching Algorithms 📅
 
 ### What I Learned 📚
-- 🌳 Learned Linear Search algorithm.
-- 🌐 Learned Binary Search algorithm.
-- 🧵 Understood basics of time complexity for searching techniques.
-- 📦 Practice & Scenario-Based Assignments:
-  - Linear Search Program  
-  - Binary Search Program  
-  - Bookshelf Management System  
-  - Movie Scheduler System  
+
+- Linear & Binary Search 🔍
+- Time complexity basics 🧵
+- Bookshelf & Movie scheduler systems 📦
 
 ---
 
+## Day 22 — January 14, 2026 — Runtime Analysis 📅
 
-✨ _This README will be updated regularly as the BridgeLabz training progresses, documenting consistent learning and practical development in C# and .NET._
+### What I Learned 📚
+
+- Big-O notation 📈
+- Time & Space complexity ⏳
+- Optimization techniques ⚙️
+
+---
+
+## Day 23 — January 15, 2026 — Browser Buddy Analysis 📅
+
+### What I Learned 📚
+
+- Performance evaluation 🌐
+- Search optimization 💾
+
+---
+
+## Day 24 — January 16, 2026 — Algorithm Comparison 📅
+
+### What I Learned 📚
+
+- Algorithm selection strategies 🧠
+- Runtime comparison 📊
+
+---
+
+## Day 25 — January 17, 2026 — Scenario Applications 📅
+
+### What I Learned 📚
+
+- Flash Deals & Fitness Tracker 🏃
+- Sorting & optimization 📊
+
+---
+
+## Day 26 — January 19, 2026 — Generics 📅
+
+### What I Learned 📚
+
+- Type-safe reusable classes 💾
+- Generic systems implementation 📦
+
+---
+
+## Day 27 — January 20, 2026 — Sorting & Backtracking 📅
+
+### What I Learned 📚
+
+- Radix Sort 🔍
+- Backtracking 🧩
+- Complexity analysis ⚙️
+
+---
+
+## Day 28 — January 21, 2026 — Streams 📅
+
+### What I Learned 📚
+
+- Stream processing 🌊
+- Merge Sort revision 🔍
+
+---
+
+## Day 29 — January 22, 2026 — Exception Handling 📅
+
+### What I Learned 📚
+
+- try-catch-finally ⚙️
+- Circular Linked List 🔁
+
+---
+
+## Day 30 — January 23, 2026 — Regex & MSTest 📅
+
+### What I Learned 📚
+
+- Regex pattern matching 🔍
+- MSTesting 🧪
+- Reflection basics ⚡
+
+---
+
+## Day 31 — January 24, 2026 — Code Quality 📅
+
+### What I Learned 📚
+
+- Code Coverage 📈
+- SonarQube integration 🧹
+
+---
+
+## Day 32 — January 27, 2026 — Annotations & Reflection 📅
+
+### What I Learned 📚
+
+- Custom annotations 📦
+- Metadata generation 🏗️
+
+---
+
+## Day 33 — January 28, 2026 — CSV & Validation 📅
+
+### What I Learned 📚
+
+- CSV data processing 📂
+- Validation systems ⚙️
+
+---
+
+## Day 34 — January 29, 2026 — Streams & JSON 📅
+
+### What I Learned 📚
+
+- JSON handling ⚡
+- Stream-based processing 📦
+
+---
+
+## Day 35 — January 30, 2026 — System Design 📅
+
+### What I Learned 📚
+
+- String challenges 💾
+- Modular logistics systems 🚚
+
+---
+
+## Day 36 — January 31, 2026 — JSON Guidelines 📅
+
+### What I Learned 📚
+
+- JSON read/write operations 📄
+- Assignment documentation standards 🔍
+
+---
+
+## Day 37 — February 2, 2026 — Multithreading 📅
+
+### What I Learned 📚
+
+- Threads & lifecycle ⏳
+- Delegates & Events ⚙️
+
+---
+
+## Day 38 — February 3, 2026 — Design Principles 📅
+
+### What I Learned 📚
+
+- SOLID principles 📦
+- Design patterns 🏗️
+
+---
+
+## Day 39 — February 4, 2026 — RDBMS & SQL 📅
+
+### What I Learned 📚
+
+- Database normalization 📊
+- DDL, DML, DCL commands 🗄️
+
+---
+
+## Day 40 — February 5, 2026 — Project-Based Learning 📅
+
+### What I Learned 📚
+
+- Professional project structure 🚀
+- MSSQL basics ⚡
+
+---
+
+## Day 41 — February 6, 2026 — Healthcare DB Design 📅
+
+### What I Learned 📚
+
+- Database schema design 🏥
+- Keys, constraints & relationships 🔑
