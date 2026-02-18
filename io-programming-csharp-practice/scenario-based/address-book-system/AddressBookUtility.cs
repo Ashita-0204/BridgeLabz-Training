@@ -639,5 +639,19 @@ public class AddressBookUtility : IAddressBook
         Console.WriteLine("-------------------");
     }
 
+    // ===== TEST SUPPORT METHODS =====
 
+    public void TestAddContact(AddressBookModel person)
+    {
+        contacts.Add(person);
+    }
+
+    public int GetContactCount()
+    {
+        return contacts.Count;
+    }
+    public void TestDeleteContact(string name)
+    {
+        contacts.RemoveAll(c => c.FirstName == name);
+    }
 }
