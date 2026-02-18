@@ -5,7 +5,7 @@ public static class ServiceProcessor
     // Polymorphism using interface
     public static void ProcessBooking(IBookable service)
     {
-        service.BookService("Lavanya");
+        service.BookService("Ashita");
     }
 
     public static void ProcessCancellation(ICancellable service)

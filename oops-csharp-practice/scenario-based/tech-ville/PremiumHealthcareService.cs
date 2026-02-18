@@ -7,12 +7,12 @@ public class PremiumHealthcareService : HealthcareService
     public PremiumHealthcareService(int id, string hospital, string feature)
         : base(id, hospital)
     {
-        this.premiumFeature = feature; // THIS keyword
+        this.premiumFeature = feature;
     }
 
     public override void ProvideService()
     {
-        base.ProvideService(); // SUPER keyword equivalent
+        base.ProvideService();
         Console.WriteLine("Premium Feature: " + premiumFeature);
     }
 }

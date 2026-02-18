@@ -3,7 +3,7 @@ using System;
 public class Service
 {
     // STATIC CLASS VARIABLES
-    protected static string cityName = "TechVille";   
+    protected static string cityName = "TechVille";
     protected static int totalServices = 0;
 
     // INSTANCE VARIABLES
@@ -59,7 +59,6 @@ public class Service
     // Object Class Overrides (Module 8)
     // =========================
 
-    // Equivalent of Java toString()
     public override string ToString()
     {
         return $"Service[{serviceID}] - {serviceName}";
