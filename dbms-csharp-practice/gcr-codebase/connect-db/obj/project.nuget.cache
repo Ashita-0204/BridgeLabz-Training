@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hTJJoBGT2po=",
+  "dgSpecHash": "aokFDeGlEA8=",
   "success": true,
-  "projectFilePath": "D:\\BridgeLabz-Training\\dbms-csharp-practice\\scenario-based\\college-management\\college-management.csproj",
+  "projectFilePath": "D:\\BridgeLabz-Training\\dbms-csharp-practice\\gcr-codebase\\connect-db\\college-management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ashit\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\ashit\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
