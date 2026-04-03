@@ -1,3 +1,0 @@
-18-02-2026 15:35:48 : Citizen with same name already exists.
-18-02-2026 15:36:21 : Invalid Email Format
-18-02-2026 15:36:03 : Age must be greater than 0
